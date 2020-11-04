@@ -1,0 +1,154 @@
+#main {
+    float: left;
+    margin-top: 20px;
+}
+
+aside {
+    float: left;
+    margin-top: 20px;
+}
+
+#courses {
+    float: left;
+    width: 90%;
+}
+
+.course {
+    width: 100%;
+    margin-bottom: 10px;
+    float: left;
+    font-size: 1.2em;
+    color: #646464;
+    font-family: 'Roboto Slab', serif;
+}
+
+.course>img {
+    border: 2px solid #dfdfdf;
+    border-radius: 5px;
+    width: 35%;
+    float: left;
+    margin-right: 10px;
+}
+
+.course>span {
+    float: right;
+    font-weight: bold;
+    color: rgba(236, 101, 80, 1);
+}
+
+#courses>a>.btn {
+    float: left;
+    margin-left: 30%;
+}
+
+#one_course {
+    float: left;
+    margin-top: 10px;
+}
+
+#one_course>img {
+    width: 80%;
+    float: left;
+}
+
+.heading {
+    font-weight: lighter;
+    font-size: 1.4em;
+    font-family: 'Roboto Slab', serif;
+    border-bottom: 2px solid #db6e6e;
+    float: left;
+    color: #4f4f4f;
+    padding: 0px 5px;
+}
+
+.heading::first-letter {
+    color: #db6e6e;
+}
+
+#news {
+    float: left;
+}
+
+@media (min-width: 1051px) {
+    #main {
+        width: 60%;
+        margin-left: 3%;
+    }
+    
+    aside {
+        width: 30%;
+        margin-left: 2%;
+    }
+
+    #news {
+        margin-left: 10%;
+        width: 90%;
+    }
+}
+
+@media (max-width: 1050px) and (min-width: 911px) {
+    #main {
+        width: 65%;
+        margin-left: 2%;
+    }
+    
+    aside {
+        width: 32%;
+    }
+
+    #news {
+        margin-left: 4%;
+        width: 96%;
+    }
+}
+
+@media (max-width: 910px) and (min-width: 500px) {
+    #main {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    aside {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    #news {
+        margin-left: 4%;
+        width: 96%;
+    }
+}
+
+@media (max-width: 499px) {
+    #main {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    aside {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #news {
+        margin-left: 4%;
+        width: 96%;
+    }
+}
+
+@media (max-width: 600px) {
+    #courses a>.btn {
+        margin-left: 5%!important;
+    }
+}
+
+.block {
+    background-color: #fafafa;
+    width: 88%;
+    padding: 3%;
+    border-radius: 5px;
+    border: 1px solid silver;
+    font-size: 1.1em;
+    color: #3e3e3e;
+    float: left;
+}

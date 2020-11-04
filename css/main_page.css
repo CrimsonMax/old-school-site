@@ -1,0 +1,143 @@
+.article {
+    float: left;
+    margin-bottom: 20px;
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+    box-sizing: border-box;
+    max-width: 350px;
+    border-radius: 5px;
+}
+
+.article>img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+.article>span {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3em;
+    width: 80%;
+    margin: 7px 10%;
+    float: left;
+    text-align: center;
+    color: #333;
+}
+
+#news>a>.btn {
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 30%;
+}
+
+@media (min-width: 1220px) {
+    .article {
+        width: 40%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 1219px) and (min-width: 650px) {
+    .article {
+        width: 45%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 649px) and (min-width: 500px) {
+    .article {
+        width: 70%;
+        margin-right: 15%;
+    }
+}
+
+@media (max-width: 499px) {
+    .article {
+        width: 90%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 440px) {
+    #main a>.btn {
+        margin-left: 5%!important;
+    }
+}
+
+#subscribe {
+    float: left;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 911px) {
+    #subscribe {
+        width: 70%;
+    }
+
+    #sub_to_project {
+        width: 25%;
+    }
+}
+
+@media (max-width: 910px) {
+    #subscribe {
+        width: 100%;
+    }
+
+    #sub_to_project {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+#subscribe>span {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    color: #434343;
+}
+
+#sub_to_project {
+    float: left;
+    margin-bottom: 20px;
+}
+
+#sub_to_project>p {
+    width: 100%;
+    color: #333;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1em;
+}
+
+#sub_to_project>a>.btn {
+    background-color: #21a7e1;
+    border-bottom-color: #1999d1;
+    float: left;
+    text-align: center;
+}
+
+#web_sites {
+    width: 98%;
+    position: relative;
+    padding: 1%;
+    background-color: #efefef;
+    border-top: 2px solid #d7d7d7;
+    text-align: center;
+    min-height: 150px;
+}
+
+#web_sites>span {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5em;
+    color: #434343;
+}
+
+#web_sites>a>.btn {
+    position: absolute;
+    margin: 0;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -80%);
+    font-size: 2em;
+}
